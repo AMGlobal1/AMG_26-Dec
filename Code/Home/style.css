@@ -981,6 +981,10 @@ video {
   height: auto;
   filter: brightness(1.1);
   transition: transform 0.3s ease;
+  background: transparent;
+  /*remove any bg*/
+  mix-blend-mode: multiply;
+  /*remove white bg*/
 }
 
 .footer-logo img:hover {
