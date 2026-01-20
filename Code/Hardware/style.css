@@ -747,7 +747,8 @@ body {
   ) !important;
 }
 
-.camera-image {
+.camera-image {position: absolute;
+  top: 0;
   background: linear-gradient(
     135deg,
     #e67e22 0%,
@@ -757,6 +758,8 @@ body {
 }
 
 .solar-camera {
+  position: absolute;
+  top: 0;
   background: linear-gradient(
     135deg,
     #f39c12 0%,
@@ -766,6 +769,8 @@ body {
 }
 
 .zoom-camera {
+  position: absolute;
+  top: 0;
   background: linear-gradient(
     135deg,
     #9b59b6 0%,
@@ -775,6 +780,8 @@ body {
 }
 
 .dual-camera {
+  position: absolute;
+  top: 0;
   background: linear-gradient(
     135deg,
     #e91e63 0%,
@@ -784,6 +791,8 @@ body {
 }
 
 .siren-camera {
+  position: absolute;
+  top: 0;
   background: linear-gradient(
     135deg,
     #e74c3c 0%,
