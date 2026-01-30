@@ -372,13 +372,13 @@ nav {
 }
 
 .footer-logo img {
-  max-width: 200px;
+  max-width: 400px;
   height: auto;
 }
 
 .footer-nav ul {
   list-style: none;
-  text-align: center;
+  text-align:left; /* aligns items under heading */
 }
 
 .footer-nav ul li {
