@@ -871,30 +871,40 @@ video {
   height: auto;
   filter: brightness(1.1);
   transition: transform 0.3s ease;
-  background: transparent;
+  background-color: #111827;
 }
 .footer-logo img:hover {
   transform: scale(1.05);
 }
+/* Quick links list column */
+.footer-nav {
+  text-align: left;
+  }
+
+  /* Quick links list */
 .footer-nav ul {
   list-style: none;
-  margin:0;
-  padding-inline-start: 20px; /* moves items under heading */
+  padding: 0;
+  margin: 0;
+  text-align:left;
+  
 }
 
+ /* Quick links list items  */
 .footer-nav ul li {
+  display: block;
   margin-bottom: 0.75rem;
-   padding-inline-start: 20px; /* moves items under heading */
 }
 
+ /* Quick links links */
 .footer-nav ul li a {
   color: #ecf0f1;
   text-decoration: none;
   font-size: 0.95rem;
+  display: inline-block;
   transition: color 0.2s ease;
-   padding-inline-start: 20px; /* moves items under heading */
 }
-
+ /* Hover */
 .footer-nav ul li a:hover {
   color: #3498db;
 }
