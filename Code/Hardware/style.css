@@ -949,7 +949,7 @@ body {
 }
 
 .footer-logo img {
-  max-width: 200px;
+  max-width: 400px;
   height: auto;
   filter: brightness(1.1);
   transition: transform 0.3s ease;

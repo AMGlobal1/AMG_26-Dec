@@ -865,13 +865,15 @@ video {
   align-items:center;
   margin-bottom: 1.5rem;
   justify-content: center;
+  background: transparent;
+  
 }
 .footer-logo img {
   max-width: 400px;
   height: auto;
   filter: brightness(1.1);
   transition: transform 0.3s ease;
-  background-color: #111827;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-logo img:hover {
   transform: scale(1.05);
@@ -1021,7 +1023,8 @@ video {
   }
   .footer-nav ul {
     justify-content:left;
-  }
+     }
+ 
   .contact-item {
     justify-content: flex-start;
   }
