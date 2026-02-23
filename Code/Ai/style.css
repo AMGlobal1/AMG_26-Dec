@@ -886,35 +886,34 @@
         .footer-logo img:hover {
             transform: scale(1.05);
         }
+ .footer-nav ul {
+  list-style: none;
+  text-align: center;
+}
 
-        .footer-nav ul {
-            list-style: none;
-            text-align: center;
-        }
+.footer-nav ul li {
+  margin-bottom: 0.75rem;
+  transition: transform 0.3s ease;
+}
 
-        .footer-nav ul li {
-            margin-bottom: 0.75rem;
-            transition: transform 0.3s ease;
-        }
+.footer-nav ul li:hover {
+  transform: translateX(5px);
+}
 
-        .footer-nav ul li:hover {
-            transform: translateX(5px);
-        }
+.footer-nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
 
-        .footer-nav ul li a {
-            color: #ecf0f1;
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: all 0.3s ease;
-            position: relative;
-            display: inline-block;
-        }
+.footer-nav ul li a:hover {
+  color: #3498db;
+}
 
-        .footer-nav ul li a:hover {
-            color: #3498db;
-        }
-
-        .contact-info {
+.contact-info {
             margin-bottom: 1rem;
         }
 
