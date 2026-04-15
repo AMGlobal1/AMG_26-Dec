@@ -14,7 +14,6 @@
             <img src="../images/AM Global Logo copy.png" alt="AM Global Logo">
             </div>
             <ul class="nav-links">
-                <!-- <li><a href="../Products/Index.html">Products</a></li> -->
                  <li><a href="../Home/index.html">Home</a></li>
                 <li><a href="../Ai/Index.html">AI</a></li>
                 <li><a href="../Automation/Index.html">Automation</a></li>
@@ -27,7 +26,6 @@
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfoK6vgeDLR1E3rNieQdl8b1TOaQg3b1KxLlOs0zJr1URg1hQ/viewform?usp=dialog">
                     Enquiry Form
                 </a>
-
             </button>
             <button class="mobile-menu" onclick="toggleMobileMenu()">☰</button>
         </nav>
@@ -44,7 +42,6 @@
                 <button class="mobile-menu-close" onclick="closeMobileMenu()">✕</button>
             </div>
             <ul class="mobile-nav-links">
-                <!-- <li><a href="../Products/Index.html" onclick="closeMobileMenu()">Products</a></li> -->
                  <li><a href="../Home/index.html" onclick="closeMobileMenu()">Home</a></li>
                 <li><a href="../Ai/Index.html" onclick="closeMobileMenu()">AI</a></li>
                 <li><a href="../Automation/Index.html" onclick="closeMobileMenu()">Automation</a></li>
@@ -60,7 +57,6 @@
             </button>
         </div>
     </div>
-
     <!-- About Section -->
     <section class="hero">
         <div class="glow-orb orb-1"></div>
@@ -71,13 +67,16 @@
                 Voice, App & Intelligence</p>
         </div>
     </section>
+
+    <!-- Updated Automation Products Section -->
     <section class="products-section" id="products">
         <div class="section-header">
             <h2 class="section-title">Automation Solutions</h2>
-            <p class="section-subtitle">Transform your space into a smart environment with our comprehensive automation
-                products</p>
+            <p class="section-subtitle">Transform your space into a smart environment with our comprehensive automation products</p>
         </div>
+
         <div class="products-grid">
+            <!-- Existing cards (unchanged) -->
             <div class="product-card">
                 <div class="product-image">
                     <div class="product-icon">🏠</div>
@@ -95,6 +94,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="product-card">
                 <div class="product-image">
                     <div class="product-icon">🏢</div>
@@ -112,6 +112,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="product-card">
                 <div class="product-image">
                     <div class="product-icon">🏗️</div>
@@ -129,6 +130,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="product-card">
                 <div class="product-image">
                     <div class="product-icon">🎙️</div>
@@ -146,6 +148,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="product-card">
                 <div class="product-image">
                     <div class="product-icon">📱</div>
@@ -163,6 +166,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="product-card">
                 <div class="product-image">
                     <div class="product-icon">🔌</div>
@@ -180,8 +184,79 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- New Smart Node cards (aligned to grid) -->
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="product-icon">🧠</div>
+                </div>
+                <div class="product-content">
+                    <span class="badge">Smart Nodes</span>
+                    <h3>Smart Node (4 Port)</h3>
+                    <p>Compact 4-channel smart module for converting traditional circuits into intelligent, app and voice-controlled endpoints.</p>
+                    <ul class="features-list">
+                        <li>Control up to 4 loads</li>
+                        <li>Retrofit-friendly design</li>
+                        <li>Scene & schedule support</li>
+                        <li>Overload protection</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="product-icon">🧠🚪</div>
+                </div>
+                <div class="product-content">
+                    <span class="badge">Smart Nodes</span>
+                    <h3>Smart Node + Door Sensor</h3>
+                    <p>Combine a smart node with a door sensor to trigger automations like lights on entry, alerts, and access-aware routines.</p>
+                    <ul class="features-list">
+                        <li>Auto-on/off with door state</li>
+                        <li>Entry/exit notifications</li>
+                        <li>Energy-saving logic</li>
+                        <li>Works with voice & app</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="product-icon">🧠🎛️</div>
+                </div>
+                <div class="product-content">
+                    <span class="badge">Smart Nodes</span>
+                    <h3>Smart Node + Remote</h3>
+                    <p>Pair the smart node with a handheld or wall-mounted remote for quick tactile control of scenes and devices.</p>
+                    <ul class="features-list">
+                        <li>One-tap scene control</li>
+                        <li>Long-range, low-latency</li>
+                        <li>Multi-button mapping</li>
+                        <li>Battery-efficient design</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- New Video Door Phone feature -->
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="product-icon">📹🚪</div>
+                </div>
+                <div class="product-content">
+                    <span class="badge">Security</span>
+                    <h3>Video Door Phone</h3>
+                    <p>Two-way video intercom for secure visitor management with doorbell alerts, live view, and remote unlock options.</p>
+                    <ul class="features-list">
+                        <li>HD video & clear audio</li>
+                        <li>Mobile notifications & snapshots</li>
+                        <li>Night vision & motion alerts</li>
+                        <li>Integration with access control</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
+
     <!-- Footer -->
     <div class="footer">
         <div class="footer-grid">
@@ -251,7 +326,7 @@
         </div>
         <!-- Copyright Section -->
         <div class="footer-bottom loading">
-            <div class="social-links"
+            <div class="social-links">
                 <a href="https://www.youtube.com/@amglobal2528" class="social-link" title="YouTube">
                     <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                         <path
